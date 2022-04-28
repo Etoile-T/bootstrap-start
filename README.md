@@ -1,67 +1,70 @@
 # [Start Bootstrap - Blog Home](https://startbootstrap.com/template/blog-home/)
 
-[Blog Home](https://startbootstrap.com/template/blog-home/) is a basic blog homepage HTML starter template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
+[Blog Home](https://startbootstrap.com/template/blog-home/)は、[Start Bootstrap](https://startbootstrap.com/)が作成した[Bootstrap](https://getbootstrap.com/)用の基本的なブログ・ホームページHTMLスターター・テンプレートです。
 
-## Preview
+## プレビュー
 
-[![Blog Home Preview](https://assets.startbootstrap.com/img/screenshots/templates/blog-home.png)](https://startbootstrap.github.io/startbootstrap-blog-home/)
+[![ブログホームプレビュー](https://assets.startbootstrap.com/img/screenshots/templates/blog-home.png)](https://startbootstrap.github.io/startbootstrap-blog-home/)
 
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-blog-home/)**
+**[ライブプレビューを見る](https://startbootstrap.github.io/startbootstrap-blog-home/)**
 
-## Status
+## ステータス
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-blog-home/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-blog-home.svg)](https://www.npmjs.com/package/startbootstrap-blog-home)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-blog-home/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-blog-home)
+[![GitHubライセンス](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-blog-home/master/LICENSE)
+[![npmバージョン](https://img.shields.io/npm/v/startbootstrap-blog-home.svg)](https://www.npmjs.com/package/startbootstrap-blog-home)
+[![依存関係 ステータス](https://david-dm.org/StartBootstrap/startbootstrap-blog-home/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-blog-home)
 [![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-blog-home/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-blog-home?type=dev)
 
-## Download and Installation
+## ダウンロードとインストール
 
-To begin using this template, choose one of the following options to get started:
+このテンプレートの使用を開始するには、次のオプションのいずれかを選択してください。
 
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template/blog-home/)
-* Install via npm: `npm i startbootstrap-blog-home`
-* Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-blog-home.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-blog-home)
+* [Start Bootstrapで最新リリースをダウンロードする](https://startbootstrap.com/template/blog-home/)
+* npm経由でインストール: `npm i startbootstrap-blog-home`.
+* リポジトリをクローンする: `git clone https://github.com/StartBootstrap/startbootstrap-blog-home.git`
+* [フォーク、クローン、またはGitHubでダウンロード](https://github.com/StartBootstrap/startbootstrap-blog-home)
 
-## Usage
+## 使い方
 
-### Basic Usage
+### 基本的な使い方
 
-After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+ダウンロード後、`dist`ディレクトリに含まれるHTMLとCSSのファイルを編集するだけです。この2つのファイルだけが、あなたが気にする必要のあるファイルであり、他のファイルは無視して構いません! 他のファイルは無視してもかまいません！コードに加えた変更をプレビューするには、Webブラウザで `index.html` ファイルを開いてください。
 
-### Advanced Usage
+### 高度な使用法
 
-Clone the source files of the theme and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
+テーマのソースファイルをクローンし、テーマのルートディレクトリに移動します。npm install` を実行してから `npm start` を実行すると、デフォルトのブラウザでテンプレートのプレビューが表示され、コアテンプレートファイルへの変更を監視し、変更が保存されるとブラウザをライブで再読み込みします。どのスクリプトが含まれているかは `package.json` ファイルで確認することができます。
 
-#### npm Scripts
+#### npm スクリプト
 
-* `npm run build` builds the project - this builds assets, HTML, JS, and CSS into `dist`
-* `npm run build:assets` copies the files in the `src/assets/` directory into `dist`
-* `npm run build:pug` compiles the Pug located in the `src/pug/` directory into `dist`
-* `npm run build:scripts` brings the `src/js/scripts.js` file into `dist`
-* `npm run build:scss` compiles the SCSS files located in the `src/scss/` directory into `dist`
-* `npm run clean` deletes the `dist` directory to prepare for rebuilding the project
-* `npm run start:debug` runs the project in debug mode
-* `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
+* `npm run build` はプロジェクトをビルドします - アセット、HTML、JS、CSSが `dist` にビルドされます。
+* `npm run build:assets` は `src/assets/` ディレクトリにあるファイルを `dist` にコピーする。
+* `npm run build:pug` は `src/pug/` ディレクトリにある Pug を `dist` にコンパイルします。
+* `npm run build:scripts` は `src/js/scripts.js` ファイルを `dist` に取り込みます。
+* `npm run build:scss` は `src/scss/` ディレクトリにある SCSS ファイルを `dist` にコンパイルする。
+* `npm run clean` は `dist` ディレクトリを削除し、プロジェクトの再構築に備えます。
+* `npm run start:debug` はプロジェクトをデバッグモードで実行します。
+* `npm start` または `npm run start` はプロジェクトを実行し、デフォルトブラウザでライブプレビューを表示し、 `src` にあるファイルへの変更を監視する。
 
-You must have npm installed in order to use this build environment.
+このビルド環境を使用するには、npmがインストールされている必要があります。
 
-## About
+## 概要
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+Start Bootstrapは、無料のBootstrapテンプレートとテーマのオープンソースライブラリです。Start Bootstrapにある無料のテンプレートとテーマはすべてMITライセンスの下でリリースされており、商用プロジェクトであっても、どのような目的にも使用することができます。
 
 * <https://startbootstrap.com>
 * <https://twitter.com/SBootstrap>
 
-Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
+Start Bootstrapは、**[David Miller](https://davidmiller.io/)**によって作成され、維持されています。
 
 * <https://davidmiller.io>
 * <https://twitter.com/davidmillerhere>
 * <https://github.com/davidtmiller>
 
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+Start Bootstrap は、[Mark Otto](https://twitter.com/mdo) と [Jacob Thorton](https://twitter.com/fat) によって作成された [Bootstrap](https://getbootstrap.com/) フレームワークをベースにしています。
 
-## Copyright and License
+## 著作権および使用許諾
 
-Copyright 2013-2022 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-blog-home/blob/master/LICENSE) license.
+著作権 2013-2022 Start Bootstrap LLC. コードは[MIT](https://github.com/StartBootstrap/startbootstrap-blog-home/blob/master/LICENSE)ライセンスのもとで公開されています。
+
+
+www.DeepL.com/Translator（無料版）で翻訳しました。
