@@ -6,7 +6,7 @@
 
 [![ブログホームプレビュー](https://assets.startbootstrap.com/img/screenshots/templates/blog-home.png)](https://startbootstrap.github.io/startbootstrap-blog-home/)
 
-**[ライブプレビューを見る](https://startbootstrap.github.io/startbootstrap-blog-home/)**
+**[ライブプレビューを見る](https://etoile-t.github.io/bootstrap-start/)**
 
 ## ステータス
 
